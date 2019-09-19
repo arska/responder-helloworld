@@ -11,7 +11,7 @@ API = responder.API()
 
 
 @API.route("/")
-def hello_world(req, resp):
+def hello_world(req, resp):  # pylint: disable=unused-argument
     """
     Example endpoint without any parameters
     """
